@@ -1,0 +1,18 @@
+# Solución para el problema del anillo para el menor gasto en contruir una cadena :)
+
+rings = N  #rings
+
+openRing():
+  return 20
+joinRings()
+  return 35
+
+totalCost = 0
+for ring in rings:
+  if ring is odd:  #par
+    openRingCost =  openRing()
+    joingRingsCost = joinRings()
+    totalCost = openRingCost + joingRingsCost
+    
+print 'Este es el menor Costo Total: '+totalCost 
+    
