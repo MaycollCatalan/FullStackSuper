@@ -1,0 +1,11 @@
+# solución al problema de solicitudes por proyecto
+
+
+SELECT * FROM public_service NOT IN (
+  SELECT A.name FROM ,public_service A permit B, permit_request C, project D, company E 
+    WHERE E.name = 'Morgan SA' AND
+    D.id = (SELECT id FROM project WHERE company id= E.id) AND
+    C.project_id = D.id AND
+    B.public_service_id = C.permit_id AND
+    
+    
